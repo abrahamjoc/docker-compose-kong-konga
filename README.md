@@ -1,8 +1,6 @@
 # Kong in Docker Compose
 
-This is the official Docker Compose template for [Kong][kong-site-url].
-
-This implementation has Konga (Kong GUI)
+This is the official Docker Compose template for [Kong][kong-site-url]. This implementation has Konga (Kong GUI).
 
 # What is Kong?
 
