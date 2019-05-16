@@ -32,9 +32,11 @@ Kong will be available through the `nginx-lb` instance on port `8000`, and `8001
 
 Kong's documentation can be found at [https://docs.konghq.com/][kong-docs-url].
 
-# Good tutorial
+# Good information
 
 https://www.youtube.com/watch?v=iz6i-RwsrJw
+
+https://docs.konghq.com/0.13.x/getting-started/configuring-a-service/
 
 ## Issues
 
