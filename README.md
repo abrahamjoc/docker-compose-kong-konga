@@ -34,9 +34,11 @@ Kong's documentation can be found at [https://docs.konghq.com/][kong-docs-url].
 
 # Good information
 
-https://www.youtube.com/watch?v=ayNLGfSHGFk (Configurando Kong como API gateway)
+https://www.youtube.com/watch?v=ayNLGfSHGFk (Configuring Kong as API gateway)
 
-https://docs.konghq.com/0.13.x/getting-started/configuring-a-service/
+https://www.ws.afnog.org/afnog2017/sse/ldap/Openldap%20presentation.pdf (Basic concepts)
+
+https://docs.konghq.com/0.13.x/getting-started/configuring-a-service/ (How Create a service and route)
 
 ## Issues
 
