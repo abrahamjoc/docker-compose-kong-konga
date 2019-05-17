@@ -34,9 +34,7 @@ Kong's documentation can be found at [https://docs.konghq.com/][kong-docs-url].
 
 # Good information
 
-https://www.youtube.com/watch?v=iz6i-RwsrJw (Basic)
-
-https://www.youtube.com/watch?v=ayNLGfSHGFk
+https://www.youtube.com/watch?v=ayNLGfSHGFk (Configurando Kong como API gateway)
 
 https://docs.konghq.com/0.13.x/getting-started/configuring-a-service/
 
