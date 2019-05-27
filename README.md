@@ -28,6 +28,13 @@ In case of error with COMPOSE_HTTP_TIMEOUT: run on this way:
 $ COMPOSE_HTTP_TIMEOUT=3600 docker-compose up
 ```
 
+Konga Connection With Kong
+
+```shell
+Name: Kong
+Kong Admin URL: http://kong:8001/
+```
+
 Kong will be available through the `nginx-lb` instance on port `8000`, and `8001`. You can customize the template with your own environment variables or datastore configuration.
 
 Kong's documentation can be found at [https://docs.konghq.com/][kong-docs-url].
