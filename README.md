@@ -38,6 +38,8 @@ https://www.youtube.com/watch?v=ayNLGfSHGFk (Configuring Kong as API gateway)
 
 https://docs.konghq.com/0.13.x/getting-started/configuring-a-service/ (How Create a service and route)
 
+https://www.youtube.com/watch?v=iz6i-RwsrJw (Configuring Kong with Konga)
+
 ## Issues
 
 If you have any problems with or questions about this image, please contact us through a [GitHub issue][github-new-issue].
