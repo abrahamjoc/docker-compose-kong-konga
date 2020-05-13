@@ -1,10 +1,8 @@
 version: '2.1'
 
-volumes:
-    kong_data: {}
-
 networks:
   kong-net:
+
 services:
   kong-migrations:
     image: "${KONG_DOCKER_TAG:-kong:latest}"
@@ -23,6 +21,7 @@ services:
     networks:
       - kong-net
     restart: on-failure
+
   konga:
     image: pantsel/konga
     container_name: konga
@@ -37,6 +36,7 @@ services:
     ports:
       - "1337:1337/tcp"
     restart: on-failure
+
   kong:
     image: "${KONG_DOCKER_TAG:-kong:latest}"
     container_name: kong
@@ -64,6 +64,7 @@ services:
       - "8443:8443/tcp"
       - "8444:8444/tcp"
     restart: on-failure
+
   db:
     image: postgres:9.5
     environment:
@@ -81,4 +82,4 @@ services:
     networks:
       - kong-net
     volumes:
-      - kong_data:/var/lib/postgresql/data
+      - ./dbdata:/var/lib/postgresql/data
