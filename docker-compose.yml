@@ -1,4 +1,4 @@
-version: '2.1'
+version: '3'
 
 networks:
   kong-net:
@@ -8,8 +8,7 @@ services:
     image: "${KONG_DOCKER_TAG:-kong:latest}"
     command: kong migrations bootstrap
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     environment:
       KONG_DATABASE: postgres
       KONG_PG_DATABASE: ${KONG_PG_DATABASE:-kong}
@@ -42,8 +41,7 @@ services:
     container_name: kong
     user: "${KONG_USER:-root}"
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     environment:
       KONG_ADMIN_ACCESS_LOG: /dev/stdout
       KONG_ADMIN_ERROR_LOG: /dev/stderr
